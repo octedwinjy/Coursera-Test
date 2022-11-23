@@ -7,6 +7,7 @@ https://github.com/jhu-ep-coursera/fullstack-course4
 
 Project webpage
 https://octedwinjy.github.io/coursera-test/mod2_solution/index.html
+https://octedwinjy.github.io/coursera-test/mod2_solution/index.html
 
 Code For MAC local browser server
 browser-sync start --server --directory --files "*"
