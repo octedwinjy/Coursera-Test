@@ -97,6 +97,9 @@ p {
 	h2 {
 		margin-top: 70px;
 	}
+	#collapsable-nav a { /* Collapsed nav menu text */
+    	font-size: 1.2em;
+	}
 }
 
 /* footer */
