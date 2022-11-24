@@ -55,6 +55,11 @@ body {
   clear: both;
   margin-top: -30px;
 }
+
+.navbar-nav .dropdown-menu{
+    position: absolute;
+}
+
  /*Head End*/
 
 h2 {
