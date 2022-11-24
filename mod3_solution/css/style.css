@@ -1,31 +1,111 @@
 body {
-	font-size: 16px;
-	color: #000000;
-	background-color: #FFFFFF;
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-	background-color: #FFA500;
-	border-radius: 0;
-	border: 0;
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
 }
+
 .navbar-brand {
-	padding-top: 15px;
+  padding-top: 15px;
 }
-.navbar-brand h1 {/*restuarant name*/
-	color: #000000;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
-	margin-left: 5%;
-	margin-top: 0;
-	margin-bottom: 0;
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
-	text-decoration: none;
+  text-decoration: none;
 }
-.p2 {
-	margin-left: 50%;
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+ /*Head End*/
+
+h2 {
+	text-align: center;
+	margin-top: 50px;
+}
+h3 {
+	text-align: center;
+	background-color: skyblue;
+	border: 2px solid black;
+	margin-top: 0;
+}
+section {
+	background-color: yellowgreen;
+	border: 1px solid black;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 50px;
+}
+p {
+	margin: 10px;
+}
+
+/* PC */
+@media (min-width: 993px) {
+	h2 {
+		margin-top: 80px;
+	}
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+	h2 {
+		margin-top: 80px;
+	}
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+	h2 {
+		margin-top: 70px;
+	}
+}
+
+/* footer */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
 }
