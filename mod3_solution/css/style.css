@@ -99,6 +99,7 @@ p {
 	}
 	#collapsable-nav a { /* Collapsed nav menu text */
     	font-size: 1.2em;
+	background-color: whitesmoke;
 	}
 }
 
